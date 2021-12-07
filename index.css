@@ -4,21 +4,16 @@ body {
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
+  background-color: white;
   max-width: 100%;
   font-family: "Inter", sans-serif;
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 h2 {
   font-size: 48px;
   margin: 0;
   font-weight: 700;
-  color: #03314b;
+  color: #000000;
   line-height: 1.4em;
 }
 
@@ -31,7 +26,7 @@ h3 {
 p {
   font-size: 20px;
   font-weight: 400;
-  color: #000000;
+  color: #3a4649;
   word-wrap: break-word;
   line-height: 1.4em;
 }
@@ -40,14 +35,14 @@ header {
   background-color: white;
 }
 
-.nav {
+#navbar {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 1.5rem;
-  max-width: 95%;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -106,16 +101,6 @@ header {
 
 .site-logo {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}
-.footer-title {
-  margin-top: 10rem;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .main-logo {
@@ -123,9 +108,22 @@ header {
   max-height: 66px;
 }
 
+.family-center {
+  display: block;
+  margin-bottom: 2rem;
+  padding: 8px;
+  background-color: #ffa200;
+  border-radius: 5px;
+  color: rgb(39, 39, 39);
+  font-weight: 650;
+}
+
 /*--------------------------------------------------------------*/
 .hero {
-  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 .main-container {
   display: flex;
@@ -134,12 +132,13 @@ header {
   box-sizing: border-box;
   flex-wrap: wrap;
   color: #002333;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 3rem;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1.5rem;
 }
 
-.main-content-left {
+.main-section-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,15 +147,6 @@ header {
   font-weight: 500;
   margin-bottom: auto;
   text-align: left;
-}
-
-.main-content-right {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: auto;
-  justify-content: center;
-  align-items: flex-end;
-  width: 45%;
 }
 
 #email {
@@ -188,7 +178,7 @@ header {
   font-stretch: 100%;
   font-weight: 500;
   font-size: 20px;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .signup:hover {
@@ -201,10 +191,18 @@ a button {
   cursor: pointer;
 }
 
+.main-section-right {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  justify-content: center;
+  align-items: flex-end;
+  width: 45%;
+}
+
 .hero-image {
-  width: 600px;
-  height: 500px;
-  border-radius: 5px;
+  width: 75%;
+  max-height: 600px;
 }
 
 /*--------------------------------------------------------------*/
