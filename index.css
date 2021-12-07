@@ -4,13 +4,13 @@ body {
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: white;
+  background-color: #f2f1e7;
   max-width: 100%;
   font-family: "Inter", sans-serif;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 60px;
   margin: 0;
   font-weight: 700;
   color: #000000;
@@ -150,14 +150,14 @@ header {
 }
 
 #email {
-  border: 1px solid #00b3d5;
+  border: 1px solid #91d5c8;
   margin-right: 1rem;
 }
 
 .title {
   margin: 0 0 0rem;
-  font-weight: 700;
-  font-size: 60px;
+  font-weight: 650;
+  font-size: 50px;
   word-wrap: break-word;
   color: #222222;
   line-height: 1.1em;
@@ -172,7 +172,7 @@ header {
 .signup {
   padding: 1rem 2rem;
   border: none;
-  background-color: #00b3d5;
+  background-color: #41a593;
   color: white;
   border-radius: 5px;
   font-stretch: 100%;
@@ -184,7 +184,7 @@ header {
 .signup:hover {
   background-color: #ffffff;
   color: #00b3d5;
-  border: 2px solid #00b3d5;
+  border: 2px solid #95ffec;
 }
 
 a button {
@@ -201,8 +201,7 @@ a button {
 }
 
 .hero-image {
-  width: 75%;
-  max-height: 600px;
+  width: 95%;
 }
 
 /*--------------------------------------------------------------*/
