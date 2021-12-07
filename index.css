@@ -157,7 +157,7 @@ header {
 .title {
   margin: 0 0 0rem;
   font-weight: 650;
-  font-size: 50px;
+  font-size: 40px;
   word-wrap: break-word;
   color: #222222;
   line-height: 1.1em;
@@ -178,7 +178,7 @@ header {
   font-stretch: 100%;
   font-weight: 500;
   font-size: 20px;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .signup:hover {
